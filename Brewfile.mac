@@ -1,0 +1,7 @@
+tap "homebrew/cask-fonts"
+brew "bitwarden-cli"
+brew "fastlane"
+brew "hashicorp/tap/packer"
+brew "hashicorp/tap/terraform"
+cask "flutter"
+cask "font-ubuntu-mono-nerd-font"
