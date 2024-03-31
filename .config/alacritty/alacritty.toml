@@ -1,3 +1,6 @@
+# themes from https://github.com/alacritty/alacritty-theme
+import = ["~/.config/alacritty/themes/themes/github_dark.toml"]
+
 [font]
 size = 20
 
