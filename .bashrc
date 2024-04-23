@@ -1,5 +1,3 @@
-export GREP_OPTIONS=' — color=auto'
-
 alias ssh="assh wrapper ssh --"
 alias config="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 alias ls="eza"
