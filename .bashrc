@@ -1,3 +1,12 @@
+# directories
+export REPOS="/mnt/c/Users/tgroven/repos"
+export SAS="$REPOS/gitlab/SAS"
+
+# cd
+alias ..="cd .."
+alias repos='cd $REPOS'
+alias sas='cd $SAS'
+
 # ls
 alias ls="eza"
 alias ll="eza -alh"
