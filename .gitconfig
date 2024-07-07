@@ -1,0 +1,10 @@
+[alias]
+  a    = add
+  all  = add -A
+  s    = status -s
+  l    = log --pretty=oneline -n 20 --graph --abbrev-commit
+
+  tags     = tag -l
+  branches = branch --all
+  remotes  = remote --verbose
+  aliases  = config --get-regexp alias
