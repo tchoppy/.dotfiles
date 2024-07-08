@@ -1,2 +1,3 @@
 brew "helm"
+brew "hashicorp/tap/terraform"
 brew "hashicorp/tap/vault"
