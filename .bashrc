@@ -43,6 +43,9 @@ export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
+# direnv
+eval "$(direnv hook bash)"
+
 _fzf_comprun() {
   local command=$1
   shift
