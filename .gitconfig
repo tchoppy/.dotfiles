@@ -1,6 +1,7 @@
 [alias]
   a    = add
   all  = add -A
+  cm   = commit -m
   s    = status -s
   l    = log --pretty=oneline -n 20 --graph --abbrev-commit
 
