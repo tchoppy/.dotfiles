@@ -29,10 +29,9 @@ eval "$(starship init bash)"
 # fzf
 alias fp="fzf --preview 'bat --style=numbers --color=always --line-range :500 {}'"
 export FZF_ALT_C_OPTS="--walker-skip .git,node_modules,target --preview 'tree -C {}'"
+eval "$(fzf --bash)"
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
-	source ~/.fzf.bash
-
 	[[ -r "/opt/homebrew/etc/profile.d/bash_completion.sh" ]] && . "/opt/homebrew/etc/profile.d/bash_completion.sh"
 else
 	[ -f ~/.fzf.bash ] && source ~/.fzf.bash
