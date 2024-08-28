@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+################################################################################
+# System Preferences > Desktop & Dock
+################################################################################
+
+# Desktop & Stage Manager > Click Wallpaper to reveal desktop > Only in Stage Manager
+defaults write "com.apple.WindowManager" EnableStandardClickToShowDesktop -bool false
+
