@@ -34,6 +34,14 @@ eval "$(fzf --bash)"
 # bash
 [[ -r "/opt/homebrew/etc/profile.d/bash_completion.sh" ]] && . "/opt/homebrew/etc/profile.d/bash_completion.sh"
 
+# history
+export HISTCONTROL=ignoreboth
+export HISTSIZE=50000
+export HISTFILESIZE=100000
+
+set -o vi
+shopt -s histappend
+
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
