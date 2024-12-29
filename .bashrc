@@ -22,6 +22,9 @@ alias fp="fzf --preview 'bat --style=numbers --color=always --line-range :500 {}
 export FZF_ALT_C_OPTS="--walker-skip .git,node_modules,target --preview 'tree -C {}'"
 eval "$(fzf --bash)"
 
+# tldr
+alias tldrf='tldr --list | fzf --preview "tldr {1} --color=always" --preview-window=right,70% | xargs tldr'
+
 # bash
 [[ -r "/opt/homebrew/etc/profile.d/bash_completion.sh" ]] && . "/opt/homebrew/etc/profile.d/bash_completion.sh"
 
