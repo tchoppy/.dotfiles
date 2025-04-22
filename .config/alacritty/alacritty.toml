@@ -14,4 +14,3 @@ import = ["\\wsl$\\Ubuntu\\home\\tgroven\\.config\\alacritty\\themes\\themes\\gi
 
 [terminal.shell]
 program = "C:\\Windows\\System32\\wsl.exe"
-args = ["tmux"]
