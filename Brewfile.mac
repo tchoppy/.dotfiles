@@ -1,0 +1,8 @@
+cask "alacritty"
+cask "bruno"
+cask "font-ubuntu-mono-nerd-font"
+cask "logi-options+"
+cask "nikitabobko/tap/aerospace"
+cask "notion"
+cask "raycast"
+cask "visual-studio-code"
