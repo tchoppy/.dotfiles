@@ -1,0 +1,4 @@
+tap "homebrew/cask-fonts"
+brew "hashicorp/tap/packer"
+brew "siderolabs/tap/sidero-tools"
+cask "flutter"
