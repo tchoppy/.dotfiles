@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+################################################################################
+# System Preferences > Desktop & Dock
+################################################################################
+
+# Desktop & Stage Manager > Click Wallpaper to reveal desktop > Only in Stage Manager
+defaults write "com.apple.WindowManager" EnableStandardClickToShowDesktop -bool false
+
+# Autohide the Dock when the mouse is out
+defaults write com.apple.dock autohide -bool true
+
+###############################################################################
+# Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
+###############################################################################
+
+# Set movement speed of the mouse cursor
+defaults write NSGlobalDomain com.apple.mouse.scaling -float "2.0"
+
+###############################################################################
+# Finder                                                                      #
+###############################################################################
+
+# Finder: show all filename extensions
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
