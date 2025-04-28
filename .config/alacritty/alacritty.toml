@@ -11,6 +11,3 @@ y = 2
 [general]
 # themes from https://github.com/alacritty/alacritty-theme
 import = ["~/.config/alacritty/themes/themes/github_dark.toml"]
-
-[terminal.shell]
-program = "/opt/homebrew/bin/tmux"
