@@ -180,6 +180,10 @@ if.app-id = 'company.thebrowser.Browser'
 run = "move-node-to-workspace B"
 
 [[on-window-detected]]
+if.app-id = 'app.zen-browser.zen'
+run = "move-node-to-workspace B"
+
+[[on-window-detected]]
 if.app-id = 'com.microsoft.VSCode'
 run = "move-node-to-workspace C"
 
@@ -197,5 +201,9 @@ run = "move-node-to-workspace N"
 
 [[on-window-detected]]
 if.app-id = 'org.alacritty'
+run = "move-node-to-workspace T"
+
+[[on-window-detected]]
+if.app-id = 'com.googlecode.iterm2'
 run = "move-node-to-workspace T"
 
